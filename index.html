@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>PlayNao</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
+
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+  <script src="scripts.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.png" alt="" width="60" height="60">
+      </a>
+    </div>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="single.html">NAO</a></li>
+      <li><a href="#Seguici">Seguici</a></li>
+    </ul>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero">
+    <div class="hero__content reveal">
+      <p class="intro-text">#NAOchallenge ITIS Stanislao Cannizzaro</p>
+      <h1 class="big-text">PlayNAO</h1>
+      <a href="#Progetto" class="button">Scopri di più</a>
+    </div>
+  </div>
+
+  <div class="poster mt-3" id="Progetto">
+    <div class="poster__content reveal">
+      <h3 class="bigm-text">Chi siamo?</h3>
+      <p>La nostra scuola come tutti gli anni partecipa alla #NAOchallenge, tutte le classi di informatica di terza sono impegnate in questa challenge, compresa la nostra classe: la 3Di. Il nostro gruppo si chiama PlayNao abbiamo scelto questo nome perchè vogliamo implementare la tecnologia dei robot per utilizzi a scopo ricreativo e per unire le persone, infatti il nostro logo simboleggia l'unione che può creare il robot con le persone</p>
+    </div>
+    <div class="poster__video reveal">
+      <img src="scuola.jpg">
+    </div>
+  </div>
+
+  <div class="poster mt-3">
+    <div class="poster__video reveal">
+      <video autoplay muted loop>
+        <source src="vd-progetto.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="poster__content reveal">
+      <h3 class="big-text">Il nostro Progetto</h3>
+      <p>Il nostro progetto consiste nell’aiutare un oratorio che ha bisogno del nostro aiuto per attirare l’attenzione della persone.
+        La nostra idea è anche quella di acculturare le persone con dei racconti, invogliare i ragazzi a venire in oratorio con attività, tutto con lo scopo di acculturare le persone tramite il NAO.</p>
+    </div>
+  </div>
+
+  <div class="panel-red mt-3">
+
+    <div class="grid">
+      <div class="col panel-red" id="dotDIV">
+        <div onclick="scrittaNao()" class="dot zoom" style="background: url(ful-nao.png) no-repeat center center; background-size: cover;"></div>
+        <div onclick="scrittaSocial()" class="dot zoom" style="background: url(instagramc.png) no-repeat center center; background-size: cover;"></div>
+        <div onclick="scrittaLogo()" class="dot zoom" style="background: url(logo.png) no-repeat center center; background-size: cover;"></div>
+        <div onclick="scrittaSito()" class="dot zoom" style="background: url(sito-web.png) no-repeat center center; background-size: cover;"></div>
+        <p class="tw">(clicca sulle immagini per scoprire di più)</p>
+      </div>
+      <div class="col panel-red__text ml ml-sma-0">
+        <div class="grid">
+          <div class="col reveal">
+            <h3 id="g-title" class="big-text tw ct"> I nostri gruppi di lavoro </h3>
+            <h3 id="g-name" class="med-text tw ct fw9"> </h3>
+            <p id="g-text" class="tw"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="grid mt-3"></div>
+    <footer class="footer" id="Seguici">
+      <div class="grid ">
+        <div class="col reveal">
+          <a href="https://instagram.com/playnao_?utm_medium=copy_link" class="normal-text tw">Instagram</a>
+          <a href="https://instagram.com/playnao_?utm_medium=copy_link"><img src="instagram.png" alt="" class="social-logo"></a>
+          <p><a href="https://instagram.com/playnao_?utm_medium=copy_link" class="small-text tw"><br>@playnao_</a></p>
+        </div>
+        <div class="col reveal">
+          <a href="https://www.facebook.com/PlayNao22/" class="normal-text tw">Facebook</a>
+          <a href="https://www.facebook.com/PlayNao22/"><img src="facebook.png" alt="" class="social-logo"></a>
+          <p><a href="https://www.facebook.com/PlayNao22/" class="small-text tw"><br>Play Nao</a></p>
+        </div>
+        <div class="col reveal">
+          <a href="https://www.tiktok.com/@playnao22?fromUrl=%2FZML87poVq&lang=it-IT" class="normal-text tw">TikTok</a>
+          <a href="https://www.tiktok.com/@playnao22?fromUrl=%2FZML87poVq&lang=it-IT"><img src="tiktok.png" alt="" class="social-logo"></a>
+          <p><a href="https://www.tiktok.com/@playnao22?fromUrl=%2FZML87poVq&lang=it-IT" class="small-text tw"><br>@playnao22</a></p>
+        </div>
+        <div class="col reveal">
+          <a href="mailto:playnao3di@gmail.com" class="normal-text tw">Per maggiori informzioni</a>
+          <a href="mailto:playnao3di@gmail.com"><img src="gmail.png" alt="" class="social-logo"></a>
+          <p><a href="mailto:playnao3di@gmail.com" class="small-text tw"><br>playnao3di@gmail.com</a></p>
+      </div>
+    </footer>
+  </div>
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    /* Open Panel */
+    $( ".hamburger" ).on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+
+  });
+
+  /* Show name */
+
+  ScrollReveal().reveal('.reveal',  { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 });
+
+  ScrollReveal().reveal('.zoom',  { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile: false});
+
+  
+
+  </script>
+
+
+</body>
+</html>

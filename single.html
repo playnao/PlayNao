@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>NAO</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.min.css" integrity="sha512-ztsAq/T5Mif7onFaDEa5wsi2yyDn5ygdVwSSQ4iok5BPJQGYz1CoXWZSA7OgwGWrxrSrbF0K85PD5uLpimu4eQ==" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo">
+      <a href="index.html">
+        <img src="logo.png" alt="" width="60" height="60">
+      </a>
+    </div>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="single.html">NAO</a></li>
+      <li><a href="#Seguici">Seguici</a></li>
+    </ul>
+    <div class="cta">
+    </div>
+    <div class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div class="hero hero--small">
+    <div class="hero__content">
+      <p class="intro-text">NAO e #NAOchallenge</p>
+      <h1 class="big-text">Cos'è il NAO?</h1>
+    </div>
+  </div>
+
+
+
+
+  <div class="content">
+    <h3 class="normal-text">Cos'è il NAO?</h3>
+    <p>NAO è un piccolo robot umanoide interattivo dell'azienda SoftBank Mobile. Con i suoi occhi grandi e l'espressione sorpresa, NAO si comporta come un robot compagno di giochi, soprattutto per bambini e anziani. 
+      Il progetto NAO è iniziato nel 2004 ma é stato presentato per la prima volta al pubblico alla fine del 2006 ed é stato sviluppato dalla Aldebaran Robotics una società francese con sede a parigi
+      I suoi movimenti possono essere programmati tramite choregraphe con una struttura simile a un diagramma a blocchi.
+      È equipaggiato di sensori di prossimità a ultrasuoni rivolti in direzioni diverse e dei sensori di pressione sotto i piedi ed é inoltre provvisto di 4 microfoni, due altoparlanti e due videocamere CMOS per la sintesi vocale e la localizzazione nello spazio. Questo robot con un apposito software può essere programmato attraverso blocchi preimpostati o tramite un codice scritto con linguaggio python per eseguire qualsiasi cosa tu gli voglia far fare.</p>
+    <h3 class="normal-text">Cos'è la NAO challenge?</h3>
+    <p>Nao Challenge è un contest didattico dedicato alle scuole superiori con l’obiettivo di potenziare le conoscenze degli studenti nel mondo della robotica e condividere le conoscenze apprese sulla robotica. L’obiettivo è quello di partecipare ad una competizione che permette agli studenti di confrontarsi con i propri coetanei su tematiche attuali come la robotica, la sostenibilità e la tutela del patrimonio artistico. Per partecipare al contest non è necessario essere in possesso del robot Nao infatti è previsto un sistema di hosting che permette agli studenti di testare il lavoro svolto. La formazione dedicata sarà svolta in modo asincrono attraverso l’iscrizione ad una piattaforma digitale e la distribuzione di video e materiali didattici e parallelamente in modo sincrono attraverso incontri webinar con esperti e professionisti del settore.</p>
+ </div>
+
+
+
+
+
+
+  <div class="grid mt-3"></div>
+<footer class="footer" id="Seguici">
+  <div class="grid ">
+    <div class="col reveal">
+      <a href="https://instagram.com/playnao_?utm_medium=copy_link" class="normal-text tw">Instagram</a>
+      <img src="instagram.png" alt="" class="social-logo">
+      <p><a href="https://instagram.com/playnao_?utm_medium=copy_link" class="small-text tw"><br>@playnao_</a></p>
+    </div>
+    <div class="col reveal">
+      <a href="https://www.facebook.com/PlayNao22/" class="normal-text tw">Facebook</a>
+      <img src="facebook.png" alt="" class="social-logo">
+      <p><a href="https://www.facebook.com/PlayNao22/" class="small-text tw"><br>Play Nao</a></p>
+    </div>
+    <div class="col reveal">
+      <a href="https://www.tiktok.com/@playnao22?fromUrl=%2FZML87poVq&lang=it-IT" class="normal-text tw">TikTok</a>
+      <img src="tiktok.png" alt="" class="social-logo">
+      <p><a href="https://www.tiktok.com/@playnao22?fromUrl=%2FZML87poVq&lang=it-IT" class="small-text tw"><br>@playnao22</a></p>
+    </div>
+    <div class="col reveal">
+      <a href="mailto:playnao3di@gmail.com" class="normal-text tw">Per maggiori informzioni</a>
+      <img src="gmail.png" alt="" class="social-logo">
+      <p><a href="mailto:playnao3di@gmail.com" class="small-text tw"><br>playnao3di@gmail.com</a></p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+  <script>
+  $( document ).ready(function() {
+
+    /* Open Panel */
+    $( ".hamburger" ).on('click', function() {
+      $(".menu").toggleClass("menu--open");
+    });
+
+  });
+</script>
+
+
+</body>
+</html>
