@@ -9,7 +9,6 @@ h1, h2, h3, h4, h5, p{color:#000; padding-bottom: 30px;}
 p{line-height: 28px; color:#666; font-weight: 300;}
 
 .big-text{font-size: 70px;font-weight: 900;}
-.bigm-text{font-size: 70px;font-weight: 900;}
 .med-text{font-size: 40px;}
 .normal-text{font-size: 20px;}
 .small-text{font-size: 14px;}
@@ -21,7 +20,8 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 
 @media (max-width: 768px) {
 
-  .big-text{font-size: 40px;}
+  .big-text{font-size: 35px;}
+  .med-text{font-size: 30px;}
 
 }
 
@@ -57,11 +57,15 @@ p{line-height: 28px; color:#666; font-weight: 300;}
 .menu li a{color: #fff;padding: 15px;display: block;}
 
 .hamburger{display: none;}
+@media (min-width: 769px) {
+  .hrefMb{display: none !important;}
+}
 
 @media (max-width: 768px) {
 
   .cta{display: none;}
-
+  .hrefPc{display: none !important; }
+  
   .menu{position: absolute; top:0; right:-100%;background: #000;height: 100vh;padding-top: 80px;}
   .menu li{display: block;}
   .menu li a{padding: 15px 30px;font-size: 20px;}
@@ -191,6 +195,7 @@ p{line-height: 28px; color:#666; font-weight: 300;}
   margin-right: 40px;
   margin-bottom: 40px;
 }
+
 
 .social-logo{
   width: 30px;

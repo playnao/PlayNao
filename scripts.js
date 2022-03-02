@@ -2,9 +2,9 @@
 
 function scrittaNao() {
     var x = document.getElementById("g-name");
-    x.innerText = "Gruppo programmazione NAO:";
+    x.innerText = "Gruppo NAO:";
     var y = document.getElementById("g-text");
-    y.innerText = "Il lavoro più arduo e difficile è spettato al gruppo della programmazione del Nao infatti si sono dovuti impegnare nel capire come utilizzare un robot facendo tesoro della loro inventiva è stato anche il lavoro più lungo in termini di tempo per diverse problematiche legate per esempio alla  connessione, o al fatto che è una macchina delicata e costosa,  per questo i membri scelti sono state le persone più competenti possibili si sono tutti impegnati al massimo per questo progetto, e lavorando hanno imparato moltissime nozioni utili per il mondo della robotica un settore che si sta sviluppando e inizierà pian piano a entrare nella nostra vita quotidiana.";
+    y.innerText = "Il gruppo nao si è occupato del lavoro a cui serviva maggiore concentrazione e serietà, infatti si sono dovuti impegnare nel capire come utilizzare un robot facendo tesoro della loro creatività. È stato anche il lavoro più lungo in termini di tempo per diverse problematiche riconducibili alla  connessione,delicatezza e ristretta possibilità di movimenti del robot, per questo i membri scelti sono state le persone più professionali. Lavorando insieme hanno imparato moltissime nozioni utili riguardo il mondo della robotica un settore che si sta sviluppando e inizierà pian piano a entrare nella nostra vita quotidiana";
     var z = document.getElementById("g-title");
     z.classList.add("display-none");
   }
@@ -14,7 +14,7 @@ function scrittaNao() {
     var x = document.getElementById("g-name");
     x.innerHTML = "Gruppo social:";
     var y = document.getElementById("g-text");
-    y.innerText = "Il gruppo Social è stato molto produttivo si sono efficentemente occupati della creazione di account Facebook Instagram e Tiktok per la divulgazione delle informazioni circa il nostro progetto, per spargere la nostra voce, per farci sentire con l'ambizioso progetto di essere l'account Nao più seguito al mondo.";
+    y.innerText = "Lo scopo del gruppo social è stato occuparsi della creazione e della gestione degli account Facebook, Instagram e Tiktok per la divulgazione delle informazioni riguardanti il nostro progetto e a tutto ciò che abbiamo fatto e stiamo facendo durante queste settimane di lavoro. Se vuoi dare un'occhiata ai nostri lavori sui social, puoi trovarli in fondo alla pagina!";
     var z = document.getElementById("g-title");
     z.classList.add("display-none");
 }
@@ -24,7 +24,7 @@ function scrittaNao() {
     var x = document.getElementById("g-name");
     x.innerHTML = "Gruppo design:";
     var y = document.getElementById("g-text");
-    y.innerText = "Può sembrare un lavoro banale ma così non è stato, la prima impressione è la più importante, sono riusciti ad occuparsi del logo e del nome, hanno adattato le loro doti artistiche per riuscire ad elaborare un buon prodotto da usufruire per la nostra pagina PlayNao per dare un ottimo aspetto estetico ";
+    y.innerText = "Può sembrare un lavoro banale ma così non è stato, la prima impressione è la più importante. Questo gruppo si è impegnato e dedicato nel realizzare il logo e il nome, hanno fatto uso delle loro doti artistiche per riuscire ad elaborare un buon prodotto da mostrare sulla nostra pagina PlayNao per dare un ottimo aspetto estetico.";
     var z = document.getElementById("g-title");
     z.classList.add("display-none");
 }
@@ -34,7 +34,7 @@ function scrittaNao() {
     var x = document.getElementById("g-name");
     x.innerHTML = "Gruppo creazione sito web:";
     var y = document.getElementById("g-text");
-    y.innerText = "Il gruppo della programmazione è stato davvero straordinario si è infatti dilettato nella creazione del sito web da cui state leggendo questo articolo. Il loro compito consisteva nel creare un sito utilizzando il linguaggio HTML, CSS e JavaScript. Siamo partiti da zero e sono riusciti a realizzare il loro ambizioso progetto con tanto lavoro e impegno nonché dedizione, nonostante le difficoltà niente li ha fermati! Il loro impegno è stato costante e mai assente hanno creato il volto della nostra squadra, è stato un lavoro difficile ma sono riusciti grazie alle loro abilità a definire il sito internet.";
+    y.innerText = "Il gruppo della programmazione si è dilettato nella creazione del sito web da cui state leggendo questo articolo. Il loro compito consisteva nel creare un sito web per rappresentare il nostro gruppo e il nostro progetto utilizzando il linguaggio HTML, CSS e JavaScript. Il sito è stato creato per essere il maggiormente accessibile da qualsiasi positivo e per descrivere al meglio quello che è il nostro lavoro.";
     var z = document.getElementById("g-title");
     z.classList.add("display-none");
 }
